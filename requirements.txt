@@ -1,0 +1,8 @@
+# Pinned to the versions this atlas was actually built and validated with.
+# Python 3.13
+requests==2.34.2
+numpy==2.3.3
+scipy==1.16.3
+scikit-learn==1.8.0
+umap-learn==0.5.12
+matplotlib==3.10.6

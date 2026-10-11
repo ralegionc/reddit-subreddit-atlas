@@ -1,0 +1,14 @@
+# Fetched data: ~44 MB, and every stage is resumable, so it is cheaper to
+# re-fetch than to version. Delete any of these and the pipeline refills them.
+data/raw/authors/
+data/raw/profiles.jsonl
+data/raw/profiles_temporal.jsonl
+data/raw/subreddit_meta.jsonl
+data/interim/
+
+# Keep the seed list: it is small and pins which subreddits the run started from.
+!data/raw/seeds.json
+
+__pycache__/
+*.py[cod]
+.venv/
