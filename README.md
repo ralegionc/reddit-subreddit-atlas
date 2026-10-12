@@ -313,6 +313,8 @@ same command and will skip what it already has.
 
 ## Data source
 
+> The raw inputs are not in this repository. [DATA.md](DATA.md) records exactly which files were used, with sizes and fingerprints, and how to re-fetch them.
+
 [Arctic Shift](https://arctic-shift.photon-reddit.com/), a public Reddit archive.
 No credentials required. Limits observed in practice: 100 results per request,
 ~13 requests/second sustained at 12 concurrent workers. The API answers
